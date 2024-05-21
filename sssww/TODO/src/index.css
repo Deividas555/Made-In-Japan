@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.bg-img{
+    background-image: url("./assets/backgroud.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.josefin-sans {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+  }
+
+.knewave-regular {
+    font-family: "Knewave", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+  }
+
+.scrollable-div::-webkit-scrollbar {
+    width: 6px; /* Width of the scrollbar */
+}
+
+.scrollable-div::-webkit-scrollbar-track {
+    background: #63222283; /* Track color */
+}
+
+.scrollable-div::-webkit-scrollbar-thumb {
+    background-color: #ff00005e; /* Thumb color */
+    border-radius: 4px; /* Rounded corners for the thumb */
+}
+
+.scrollable-div::-webkit-scrollbar-thumb:hover {
+    background-color: #792b2b62; /* Thumb color on hover */
+}
